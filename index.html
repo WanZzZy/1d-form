@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        .error{border: 3px red solid;}
+        .valid{border: 3px green solid;}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <container class="main">
+        <form action="" id="form">
+            <div class="form_elem">
+                <label for="" class="label">Фамилия:</label>
+                <input type="text" placeholder="Фамилия" id="famil">
+            </div>
+            <div class="form_elem">
+                <label for="" class="label">Имя:</label>
+                <input type="text" placeholder="Имя" id="name">
+            </div>
+            <div class="form_elem">
+                <label for="" class="label">Отчество:</label>
+                <input type="text" placeholder="Отчество" id="otchestvo">
+            </div>
+            <div class="form_elem">
+                <label for="" class="label">Телефон:</label>
+                <input type="number" placeholder="+1 (111) 111-11-11" id="phone">
+            </div>
+            <div class="form_elem">
+                <label for="" class="label">Почта:</label>
+                <input type="email" placeholder="Почта" id="email">
+            </div>
+            <div class="btn">
+                <button id ="submit" class="form__submit-btn form__submit-btn_action_add">Отправить</button>
+            </div>
+        </form>
+    </container>
+    <script src="./script.js"></script>
+</body>
+</html>

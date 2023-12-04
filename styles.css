@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.main {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form_elem {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form_elem label {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form__submit-btn {
+    width: 140px;
+    height: 26px;
+}
